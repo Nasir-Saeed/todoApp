@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Libre+Franklin:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Dongle&family=Roboto:wght@300&display=swap');
+body {
+    background-color: #f1f1f1;
+}
+
+.container {
+    width: 90vw;
+    border: 2px solid black;
+    margin: auto;
+    display: block;
+    margin-top: 40px;
+}
+
+.container h1 {
+    text-align: center;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.container input {
+    border: 3px solid grey;
+    padding: 15px 12px;
+    width: 60vw;
+    border-radius: 7px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container button {
+    padding: 13px 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    transition: all 0.2s;
+    font-size: 16px;
+    border: 2px solid black;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 8px;
+    margin-left: 163px;
+}
+
+.table {
+    font-family: 'Roboto', sans-serif;
+    width: 82%;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1204px) {
+    .container {
+        width: 174vw;
+    }
+    .container input {
+        width: 70%;
+    }
+    .container button {
+        display: block;
+        margin: auto;
+    }
+    .table {
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+        padding: 4px 3px;
+        width: 95%;
+    }
+    #btone {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+        margin: 5px 0px;
+    }
+}
+
+/* Iphone 6  */
+
+@media screen and (max-width: 375px) {
+    .container {
+        width: 190vw;
+    }
+    .container input {
+        width: 70%;
+    }
+    .container button {
+        display: block;
+        margin: auto;
+    }
+    .table {
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+        padding: 4px 3px;
+        width: 95%;
+    }
+    #btone {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+        margin: 5px 0px;
+    }
+}
+
+/* Iphone 5  */
+
+@media screen and (max-width: 375px) {
+    .container {
+        width: 224vw;
+    }
+    .container input {
+        width: 70%;
+    }
+    .container button {
+        display: block;
+        margin: auto;
+    }
+    .table {
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+        padding: 4px 3px;
+        width: 225%;
+    }
+    #btone {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+        margin: 5px 0px;
+    }
+}
+
+/* Pixel 2xl */
+
+@media screen and (max-width: 411px) {
+    .container {
+        width: 224vw;
+    }
+    .container input {
+        width: 70%;
+    }
+    .container button {
+        display: block;
+        margin: auto;
+    }
+    .table {
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+        padding: 4px 3px;
+        width: 225%;
+    }
+    #btone {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+        margin: 5px 0px;
+    }
+}
+
+/* Dimension size */
+
+@media screen and (max-width: 561px) {
+    .container {
+        width: 224vw;
+        margin-bottom: 20px;
+    }
+    .container input {
+        width: 70%;
+    }
+    .container button {
+        display: block;
+        margin: auto;
+    }
+    .table {
+        margin-top: 30px;
+        padding: 4px 3px;
+        width: 170%;
+        display: block;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #btone {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+        margin: 5px 0px;
+    }
+}
+
+/* Dimension size */
+
+@media screen and (max-width: 653px) {
+    .container {
+        display: block;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+        width: 224vw;
+    }
+    .container input {
+        width: 70%;
+    }
+    .container button {
+        display: block;
+        margin: auto;
+    }
+    .table {
+        margin-top: 30px;
+        padding: 4px 3px;
+        width: 120%;
+        display: block;
+        margin: auto;
+    }
+    #btone {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+        margin: 5px 0px;
+    }
+}

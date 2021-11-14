@@ -3,7 +3,7 @@ function userCreate() {
     let name = document.getElementById("name").value
     let email = document.getElementById("email").value
     let address = document.getElementById("address").value
-    axios.post('http://localhost:3000/user', {
+    axios.post('https://todo-appcs.herokuapp.com/user', {
         name, email, address
     })
         .then(function (response) {
@@ -29,7 +29,7 @@ function userCreate() {
 // GET ALL USER 
 function getAllUser() {
 
-    axios.get('http://localhost:3000/users')
+    axios.get('https://todo-appcs.herokuapp.com/users')
         .then(function (response) {
             console.log(response);
 
@@ -80,7 +80,7 @@ function editUser(_id, index) {
 function deleteUser(_id) {
     alert("User Deleted");
 
-    axios.delete(`http://localhost:3000/user/${_id}`)
+    axios.delete(`https://todo-appcs.herokuapp.com/user/${_id}`)
         .then(function (response) {
             console.log(response);
 
@@ -105,7 +105,7 @@ function updateUser(_id) {
     const email = document.getElementById(`${_id}-email`).value
     const address = document.getElementById(`${_id}-address`).value
 
-    axios.put(`http://localhost:3000/user/${_id}`, { name, email, address })
+    axios.put(`https://todo-appcs.herokuapp.com/user/${_id}`, { name, email, address })
         .then(function (response) {
             console.log(response);
 

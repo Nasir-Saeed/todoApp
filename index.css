@@ -45,6 +45,10 @@ body {
     margin-bottom: 8px;
     margin-left: 163px;
 }
+.container button:hover{
+    color: black;
+    background-color: rgb(147, 229, 243);
+}
 
 .table {
     font-family: 'Roboto', sans-serif;
@@ -55,9 +59,19 @@ body {
     font-weight: bold;
 }
 
+.table thead tr th{
+    /* width: 40%; */
+    border: 3px solid black;
+ 
+}
+
 @media screen and (max-width: 1204px) {
     .container {
-        width: 174vw;
+        width: 74vw;
+        display: block;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
     }
     .container input {
         width: 70%;
@@ -66,12 +80,23 @@ body {
         display: block;
         margin: auto;
     }
-    .table {
-        display: block;
-        margin: auto;
-        margin-top: 30px;
-        padding: 4px 3px;
-        width: 95%;
+    table thead tr th{
+        border: 3px solid black;
+        width: 17px;
+     
+    }
+    #eachUser._id{
+        width: 2px;
+     
+    }
+    table tbody tr{
+        border: 3px solid black;
+     
+    }
+    table tbody tr td{
+        border: 3px solid black;
+        width: 2px;
+     
     }
     #btone {
         display: flex;
@@ -83,7 +108,7 @@ body {
 
 /* Iphone 6  */
 
-@media screen and (max-width: 375px) {
+/* @media screen and (max-width: 375px) {
     .container {
         width: 190vw;
     }
@@ -107,11 +132,11 @@ body {
         padding: 0px 20px;
         margin: 5px 0px;
     }
-}
+} */
 
 /* Iphone 5  */
 
-@media screen and (max-width: 375px) {
+/* @media screen and (max-width: 375px) {
     .container {
         width: 224vw;
     }
@@ -135,11 +160,11 @@ body {
         padding: 0px 20px;
         margin: 5px 0px;
     }
-}
+} */
 
 /* Pixel 2xl */
 
-@media screen and (max-width: 411px) {
+/* @media screen and (max-width: 411px) {
     .container {
         width: 224vw;
     }
@@ -163,11 +188,11 @@ body {
         padding: 0px 20px;
         margin: 5px 0px;
     }
-}
+} */
 
 /* Dimension size */
 
-@media screen and (max-width: 561px) {
+/* @media screen and (max-width: 561px) {
     .container {
         width: 224vw;
         margin-bottom: 20px;
@@ -195,11 +220,11 @@ body {
         padding: 0px 20px;
         margin: 5px 0px;
     }
-}
+} */
 
 /* Dimension size */
 
-@media screen and (max-width: 653px) {
+/* @media screen and (max-width: 653px) {
     .container {
         display: block;
         margin: auto;
@@ -228,4 +253,4 @@ body {
         padding: 0px 20px;
         margin: 5px 0px;
     }
-}
+} */
